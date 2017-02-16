@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F94783A1E563F3E00C7886B /* DemoEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9478361E563F3E00C7886B /* DemoEntity+CoreDataClass.swift */; };
+		9F94783B1E563F3E00C7886B /* DemoEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9478371E563F3E00C7886B /* DemoEntity+CoreDataProperties.swift */; };
+		9F94783C1E563F3E00C7886B /* DemoEntityContents+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9478381E563F3E00C7886B /* DemoEntityContents+CoreDataClass.swift */; };
+		9F94783D1E563F3E00C7886B /* DemoEntityContents+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9478391E563F3E00C7886B /* DemoEntityContents+CoreDataProperties.swift */; };
 		9FD300401E5284E100C52DD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD3003F1E5284E100C52DD7 /* AppDelegate.swift */; };
 		9FD300421E5284E100C52DD7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD300411E5284E100C52DD7 /* ViewController.swift */; };
 		9FD300451E5284E100C52DD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FD300431E5284E100C52DD7 /* Main.storyboard */; };
@@ -15,10 +19,6 @@
 		9FD3004D1E5284E100C52DD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FD3004B1E5284E100C52DD7 /* LaunchScreen.storyboard */; };
 		9FD300581E5284E100C52DD7 /* ios_coredata_nsrelationshipdescription_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD300571E5284E100C52DD7 /* ios_coredata_nsrelationshipdescription_demoTests.swift */; };
 		9FD300631E5284E100C52DD7 /* ios_coredata_nsrelationshipdescription_demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD300621E5284E100C52DD7 /* ios_coredata_nsrelationshipdescription_demoUITests.swift */; };
-		9FD300721E52867100C52DD7 /* DemoEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD300701E52867100C52DD7 /* DemoEntity+CoreDataClass.swift */; };
-		9FD300731E52867100C52DD7 /* DemoEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD300711E52867100C52DD7 /* DemoEntity+CoreDataProperties.swift */; };
-		9FD300761E52869000C52DD7 /* DemoEntityContents+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD300741E52869000C52DD7 /* DemoEntityContents+CoreDataClass.swift */; };
-		9FD300771E52869000C52DD7 /* DemoEntityContents+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD300751E52869000C52DD7 /* DemoEntityContents+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9F9478361E563F3E00C7886B /* DemoEntity+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DemoEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		9F9478371E563F3E00C7886B /* DemoEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DemoEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		9F9478381E563F3E00C7886B /* DemoEntityContents+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DemoEntityContents+CoreDataClass.swift"; sourceTree = "<group>"; };
+		9F9478391E563F3E00C7886B /* DemoEntityContents+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DemoEntityContents+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		9FD3003C1E5284E100C52DD7 /* ios-coredata-nsrelationshipdescription-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-coredata-nsrelationshipdescription-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FD3003F1E5284E100C52DD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9FD300411E5284E100C52DD7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -53,10 +57,6 @@
 		9FD3005E1E5284E100C52DD7 /* ios-coredata-nsrelationshipdescription-demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-coredata-nsrelationshipdescription-demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FD300621E5284E100C52DD7 /* ios_coredata_nsrelationshipdescription_demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_coredata_nsrelationshipdescription_demoUITests.swift; sourceTree = "<group>"; };
 		9FD300641E5284E100C52DD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9FD300701E52867100C52DD7 /* DemoEntity+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "DemoEntity+CoreDataClass.swift"; path = "../DemoEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
-		9FD300711E52867100C52DD7 /* DemoEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "DemoEntity+CoreDataProperties.swift"; path = "../DemoEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		9FD300741E52869000C52DD7 /* DemoEntityContents+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "DemoEntityContents+CoreDataClass.swift"; path = "../DemoEntityContents+CoreDataClass.swift"; sourceTree = "<group>"; };
-		9FD300751E52869000C52DD7 /* DemoEntityContents+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "DemoEntityContents+CoreDataProperties.swift"; path = "../DemoEntityContents+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,11 +107,11 @@
 		9FD3003E1E5284E100C52DD7 /* ios-coredata-nsrelationshipdescription-demo */ = {
 			isa = PBXGroup;
 			children = (
+				9F9478361E563F3E00C7886B /* DemoEntity+CoreDataClass.swift */,
+				9F9478371E563F3E00C7886B /* DemoEntity+CoreDataProperties.swift */,
+				9F9478381E563F3E00C7886B /* DemoEntityContents+CoreDataClass.swift */,
+				9F9478391E563F3E00C7886B /* DemoEntityContents+CoreDataProperties.swift */,
 				9FD3003F1E5284E100C52DD7 /* AppDelegate.swift */,
-				9FD300741E52869000C52DD7 /* DemoEntityContents+CoreDataClass.swift */,
-				9FD300751E52869000C52DD7 /* DemoEntityContents+CoreDataProperties.swift */,
-				9FD300701E52867100C52DD7 /* DemoEntity+CoreDataClass.swift */,
-				9FD300711E52867100C52DD7 /* DemoEntity+CoreDataProperties.swift */,
 				9FD300411E5284E100C52DD7 /* ViewController.swift */,
 				9FD300431E5284E100C52DD7 /* Main.storyboard */,
 				9FD300491E5284E100C52DD7 /* Assets.xcassets */,
@@ -275,12 +275,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FD300421E5284E100C52DD7 /* ViewController.swift in Sources */,
-				9FD300761E52869000C52DD7 /* DemoEntityContents+CoreDataClass.swift in Sources */,
-				9FD300771E52869000C52DD7 /* DemoEntityContents+CoreDataProperties.swift in Sources */,
-				9FD300731E52867100C52DD7 /* DemoEntity+CoreDataProperties.swift in Sources */,
+				9F94783C1E563F3E00C7886B /* DemoEntityContents+CoreDataClass.swift in Sources */,
 				9FD300401E5284E100C52DD7 /* AppDelegate.swift in Sources */,
+				9F94783B1E563F3E00C7886B /* DemoEntity+CoreDataProperties.swift in Sources */,
+				9F94783D1E563F3E00C7886B /* DemoEntityContents+CoreDataProperties.swift in Sources */,
 				9FD300481E5284E100C52DD7 /* ios_coredata_nsrelationshipdescription_demo.xcdatamodeld in Sources */,
-				9FD300721E52867100C52DD7 /* DemoEntity+CoreDataClass.swift in Sources */,
+				9F94783A1E563F3E00C7886B /* DemoEntity+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -523,6 +523,7 @@
 				9FD300691E5284E100C52DD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9FD3006A1E5284E100C52DD7 /* Build configuration list for PBXNativeTarget "ios-coredata-nsrelationshipdescription-demoTests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +532,7 @@
 				9FD3006C1E5284E100C52DD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9FD3006D1E5284E100C52DD7 /* Build configuration list for PBXNativeTarget "ios-coredata-nsrelationshipdescription-demoUITests" */ = {
 			isa = XCConfigurationList;
@@ -539,6 +541,7 @@
 				9FD3006F1E5284E100C52DD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
